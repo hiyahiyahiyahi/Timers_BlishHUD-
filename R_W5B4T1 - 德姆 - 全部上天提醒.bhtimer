@@ -1,0 +1,103 @@
+{
+  "id": "htp.raid.w5.b4.allGreens",
+  "name": "德姆\n上天提醒",
+  "category": "W5: Hall of Chains",
+  "description": "• Type: Automatic\n---Displays---\n• When all Greens happen.\n• 以德姆王座左手边第一个机关为箭头，按顺序和顺时标点",
+  "author": "\nQuitarHero.1645\n-中文汉化-\n godpit.7512 社恐",
+  "icon": "Assets/Raids/DhuumGA.png",
+  "map": 1264,
+  "reset": { "position": [460, 70, 150], "antipode": [345, -32, 225],
+    "requireDeparture": true
+  },
+  "phases": [
+    {
+      "name": "All Greens",
+      "start": { "position": [460, 70, 150], "antipode": [345, -32, 225],
+        "requireEntry": true, "requireCombat": true
+      },
+      "alerts": [
+        // ========== GREENS ==========
+        //Green 1
+        { "warning": "一天 箭头", "fillColor": [36, 173, 12, 1],
+          "warningDuration": 31, "timestamps": [35],
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g1_1"
+        },
+        { "warning": "一天 方块", "fillColor": [36, 173, 12, 1],
+          "warningDuration": 30, "timestamps": [125],
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g1_2"
+        },
+        { "warning": "一天 三角", "fillColor": [36, 173, 12, 1],
+          "warningDuration": 30, "timestamps": [215],
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g1_3"
+        },
+        { "warning": "一天 爱心", "fillColor": [36, 173, 12, 1],
+          "warningDuration": 30, "timestamps": [305],
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g1_4"
+        },
+        { "warning": "一天 旋涡", "fillColor": [36, 173, 12, 1],
+          "warningDuration": 30, "timestamps": [395],
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g1_5"
+        },
+        { "warning": "一天 圆圈", "fillColor": [36, 173, 12, 1],
+          "warningDuration": 30, "timestamps": [485],
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g1_6"
+        },
+        { "warning": "一天 五角", "fillColor": [36, 173, 12, 1],
+          "warningDuration": 30, "timestamps": [575],
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g1_7"
+        },
+        //Green 2
+        { "warning": "二天 圆圈", "fillColor": [36, 173, 12, 1],
+          "warningDuration": 30, "timestamps": [65],
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g2_1"
+        },
+        { "warning": "二天 五角", "fillColor": [36, 173, 12, 1],
+          "warningDuration": 30, "timestamps": [155],
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g2_2"
+        },
+        { "warning": "二天 箭头", "fillColor": [36, 173, 12, 1],
+          "warningDuration": 30, "timestamps": [245],
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g2_3"
+        },
+        { "warning": "二天 方块", "fillColor": [36, 173, 12, 1],
+          "warningDuration": 30, "timestamps": [335],
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g2_4"
+        },
+        { "warning": "二天 三角", "fillColor": [36, 173, 12, 1],
+          "warningDuration": 30, "timestamps": [425],
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g2_5"
+        },
+        { "warning": "二天 爱心", "fillColor": [36, 173, 12, 1],
+          "warningDuration": 30, "timestamps": [515],
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g2_6"
+        },
+        //Green 3
+        { "warning": "三天 爱心", "fillColor": [36, 173, 12, 1],
+          "warningDuration": 30, "timestamps": [95],
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g3_1"
+        },
+        { "warning": "三天 旋涡", "fillColor": [36, 173, 12, 1],
+          "warningDuration": 30, "timestamps": [185],
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g3_2"
+        },
+        { "warning": "三天 圆圈", "fillColor": [36, 173, 12, 1],
+          "warningDuration": 30, "timestamps": [275],
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g3_3"
+        },
+        { "warning": "三天 五角", "fillColor": [36, 173, 12, 1],
+          "warningDuration": 30, "timestamps": [365],
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g3_4"
+        },
+        { "warning": "三天 箭头", "fillColor": [36, 173, 12, 1],
+          "warningDuration": 30, "timestamps": [455],
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g3_5"
+        },
+        { "warning": "三天 方块", "fillColor": [36, 173, 12, 1],
+          "warningDuration": 30, "timestamps": [545],
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g3_6"
+        },
+      ]
+    }
+  ]
+  
+}

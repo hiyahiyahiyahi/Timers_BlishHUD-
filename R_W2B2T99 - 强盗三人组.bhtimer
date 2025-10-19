@@ -1,0 +1,69 @@
+{
+  "id": "htp.raid.w2.b2",
+  "name": "强盗三人组\nBOSS/破坏者/迫击炮",
+  "category": "W2: Salvation Pass",
+  "description": "• Type: Automatic\n---Displays---\n• boss.\n• When saboteurs spawn.\n• When mortars spawn.",
+  "author": "\nQuitarHero.1645\n-中文汉化-\n godpit.7512 社恐",
+  "icon": "Assets/Raids/Narella.png",
+  "map": 1149,
+  "reset": { "position": [128.7512, -89.64924, 61.711], "radius": 30,
+    "requireEntry": true, "requireOutOfCombat": true
+  },
+  "phases": [
+    {
+      "name": "强盗三人组",
+      "start": { "position": [47.606, -285.6064, 100], "antipode": [-51.67011, -186.4302, -10],
+        "requireEntry": true, "requireCombat": true
+      },
+      "finish": { "position": [-17.93, -252.31, 2.506], "radius": 175,
+        "requireEntry": true, "requireOutOfCombat": true
+      },
+      //Alerts
+      "alerts": [
+        { "alert": "计时器：开始", "fillColor": [194, 45, 45, 0],
+          "alertDuration": 4, "timestamps": [0],
+          "icon": "Assets/Raids/Narella.png"
+        },
+        //Boss Spawns
+        { "warning": "被蜜蜂叮的柏格", "fillColor": [194, 45, 45, 0],
+          "warningDuration": 126, "timestamps": [130],
+          "icon": "Assets/Raids/Berg.png"
+        },
+        { "warning": "被狗追的泽安", "fillColor": [194, 45, 45, 0],
+          "warningDuration": 95, "timestamps": [250],
+          "icon": "Assets/Raids/Zane.png"
+        },
+        { "warning": "被火烧的娜瑞拉", "fillColor": [194, 45, 45, 0],
+          "warningDuration": 95, "timestamps": [370],
+          "icon": "Assets/Raids/Narella.png"
+        },
+        //Saboteurs
+        { "warning": "强盗破坏者", "fillColor": [194, 45, 45, 0],
+          "warningDuration": 33, "timestamps": [308],
+          "icon": "Assets/Raids/Saboteur.png"
+        },
+        { "warning": "强盗破坏者", "fillColor": [194, 45, 45, 0],
+          "warningDuration": 31, "timestamps": [339, 370, 401, 432],
+          "icon": "Assets/Raids/Saboteur.png"
+        },
+        { "warning": "强盗破坏者", "fillColor": [194, 45, 45, 0],
+          "warningDuration": 25, "timestamps": [155],
+          "icon": "Assets/Raids/Saboteur.png"
+        },
+        //Mortars
+        { "warning": "强盗投弹手 迫击炮", "fillColor": [194, 45, 45, 0],
+          "warningDuration": 60, "timestamps": [215],
+          "icon": "Assets/Raids/Mortar.png"
+        },
+        { "warning": "强盗投弹手 迫击炮", "fillColor": [194, 45, 45, 0],
+          "warningDuration": 27, "timestamps": [335],
+          "icon": "Assets/Raids/Mortar.png"
+        },
+        { "warning": "强盗投弹手 迫击炮", "fillColor": [194, 45, 45, 0],
+          "warningDuration": 25, "timestamps": [275],
+          "icon": "Assets/Raids/Mortar.png"
+        }
+      ]
+    }
+  ]
+}

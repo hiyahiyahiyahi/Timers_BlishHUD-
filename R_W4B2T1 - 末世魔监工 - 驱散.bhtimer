@@ -1,0 +1,36 @@
+{
+  "id": "htp.raid.w4.b2.dispel",
+  "name": "末世魔监工\n驱散",
+  "category": "W4: Bastion of the Penitent",
+  "description": "• Type: Automatic\n---Displays---\n• When Jade Scouts/Soldiers get shields.",
+  "author": "\nQuitarHero.1645\n-中文汉化-\n godpit.7512 社恐",
+  "icon": "Assets/Raids/MO.png",
+  "map": 1188,
+  "reset": { "position": [98.835, 132.927, 100.187], "antipode": [35.145, 69.167, 115.19],
+    "requireDeparture": true
+  },
+  "phases": [
+    {
+      "name": "Dispel",
+      "start": { "position": [98.835, 132.927, 100.187], "antipode": [35.145, 69.167, 115.19],
+        "requireEntry": true, "requireCombat": true
+      },
+      "alerts": [
+        //Timer Start
+        { "alert": "计时器：驱散 开始", "fillColor": [202, 175, 92, 0],
+          "alertDuration": 4, "timestamps": [0],
+          "icon": "Assets/Raids/MO.png"
+        },
+        //The actual Dispel mechanic
+        { "warning": "护盾出现", "alert": "现在驱散", "fillColor": [202, 175, 92, 0],
+          "warningDuration": 10, "alertDuration": 5, "timestamps": [10],
+          "icon": "Assets/Raids/Dispel.png"
+        },
+        { "warning": "护盾出现", "alert": "现在驱散", "fillColor": [202, 175, 92, 0],
+          "warningDuration": 20, "alertDuration": 5, "timestamps": [35, 60, 85, 110, 135, 160, 185, 210, 235, 260, 285, 310, 335, 360],
+          "icon": "Assets/Raids/Dispel.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "htp.raid.w4.b1.all",
+  "name": "凯玲\n分享折磨",
+  "category": "W4: Bastion of the Penitent",
+  "description": "• Type: Automatic\n• This timer is only useful if your\ngroup intentionally grabs Agony.\n---Displays---\n• When each Agony is applied.\n• How long each Agony lasts.",
+  "author": "\nQuitarHero.1645\n-中文汉化-\n godpit.7512 社恐",
+  "icon": "Assets/Raids/Cairn.png",
+  "map": 1188,
+  "reset": { "position": [365, 51, 34], "radius": 50,
+    "requireDeparture": true
+  },
+  "phases": [
+    {
+      "name": "Cairn - All Agony",
+      "start": { "position": [365, 51, 34], "radius": 35,
+		    "requireEntry": true, "requireCombat": true
+      },
+      "alerts": [
+        //Timer Start Notification
+        { "alert": "计时器：分享折磨 开始", "fillColor": [202, 175, 92, 0],
+          "alertDuration": 4, "timestamps": [0],
+          "icon": "Assets/Raids/Cairn.png"
+        },
+        //When Agony Ends
+        { "warning": "分享折磨1 结束", "fillColor": [186, 80, 80, 0],
+          "warningDuration": 60, "timestamps": [82, 162, 242, 322, 402, 482, 562],
+          "icon": "Assets/Raids/Agony.png"
+        },
+        { "warning": "分享折磨2 结束", "fillColor": [186, 80, 80, 0],
+          "warningDuration": 60, "timestamps": [102, 182, 262, 342, 422, 502, 582],
+          "icon": "Assets/Raids/Agony.png"
+        },
+        { "warning": "分享折磨3 结束", "fillColor": [186, 80, 80, 0],
+          "warningDuration": 60, "timestamps": [122, 202, 282, 362, 442, 522, 602],
+          "icon": "Assets/Raids/Agony.png"
+        },
+        { "warning": "分享折磨2 结束", "fillColor": [186, 80, 80, 0],
+          "warningDuration": 60, "timestamps": [142, 222, 302, 382, 462, 542],
+          "icon": "Assets/Raids/Agony.png"
+        },
+        //When Agony is Applied
+        { "warning": "分享折磨1", "fillColor": [199, 22, 22, 0],
+          "warningDuration": 18, "timestamps": [22],
+          "icon": "Assets/Raids/Agony.png"
+        },
+        { "warning": "分享折磨1", "fillColor": [199, 22, 22, 0],
+          "warningDuration": 20, "timestamps": [102, 182, 262, 342, 422, 502],
+          "icon": "Assets/Raids/Agony.png"
+        },
+        { "warning": "分享折磨2", "fillColor": [199, 22, 22, 0],
+          "warningDuration": 20, "timestamps": [42, 122, 202, 282, 362, 442, 522],
+          "icon": "Assets/Raids/Agony.png"
+        },
+        { "warning": "分享折磨3", "fillColor": [199, 22, 22, 0],
+          "warningDuration": 20, "timestamps": [62, 142, 222, 302, 382, 462, 542],
+          "icon": "Assets/Raids/Agony.png"
+        },
+        { "warning": "分享折磨4", "fillColor": [199, 22, 22, 0],
+          "warningDuration": 20, "timestamps": [82, 162, 242, 322, 402, 482],
+          "icon": "Assets/Raids/Agony.png"
+        }
+      ]
+    }
+  ]
+}

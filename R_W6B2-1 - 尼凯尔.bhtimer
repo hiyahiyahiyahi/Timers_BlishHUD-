@@ -1,0 +1,42 @@
+{
+  "id": "htp.raid.w6.b2.nikare",
+  "name": "尼凯尔\n蔑视时间 如果在 P2 出现两次蔑视，在 P3 会不准确",
+  "category": "W6: Mythwright Gambit",
+  "description": "• Type: Automatic\n• Note: This timer becomes inaccurate\nin P3 if 2 breakbars show on Nikare P2.\n---Displays---\n• When Nikare's breakbar can be broken.",
+  "author": "\nQuitarHero.1645\n-中文汉化-\n godpit.7512 社恐",
+  "icon": "Assets/Raids/Nikare.png",
+  "map": 1303,
+  "reset": { "position": [368.705, 43.362, 0.144], "radius": 200,
+    "requireEntry": true, "requireOutOfCombat": true
+  },
+  "phases": [
+    {
+      "name": "尼凯尔 蔑视 第一次",
+      "start": { "position": [295.244, 39.809, 33.557], "radius": 30,
+        "requireEntry": true, "requireCombat": true
+      },
+      "finish": { "position": [249.741, 90.227, -20.264], "antipode": [333.075, -26.016, 60.053],
+        "requireDeparture": true
+      },
+      "alerts": [
+        { "warning": "蔑视倒计时", "alert": "破蔑视", "fillColor": [244, 240, 4, 1],
+          "warningDuration": 20, "alertDuration": 3, "timestamps": [20, 80],
+          "icon": "Assets/Raids/Nikare.png"
+        }
+      ]
+    },
+    {
+      "name": "尼凯尔 蔑视 第二次",
+      "start": {
+        "position": [294.919, 124.83, 33.557], "radius": 30,
+        "requireEntry": true, "requireCombat": true
+      },
+      "alerts": [
+        { "warning": "蔑视倒计时", "alert": "破蔑视", "fillColor": [244, 240, 4, 1],
+          "warningDuration": 20, "alertDuration": 3, "timestamps": [20, 80],
+          "icon": "Assets/Raids/Nikare.png"
+        }
+      ]
+    }
+  ]
+}
