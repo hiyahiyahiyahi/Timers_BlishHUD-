@@ -1,6 +1,6 @@
 {
   "id": "htp.raid.w8.b1.all",
-  "name": "迪西玛\nBoss 攻击提醒",
+  "name": "迪西玛\nBoss 攻击提醒 破完蔑视时 手动激活 热键 0",
   "category": "W8: Mount Balrior",
   "description": "• Type: Hotkey ( Trigger Key 0 )\n• Automatically begins on fight entry.\n• Activate when Decima's breakbar is broken.\n(Will not be accurate if Decima's breakbar is not broken)\n---Disclaimer---\n• Decima takes variable time to re-tether conduits. Due to\nthis, the timer can become inaccurate by +/- 2 seconds.\n---Displays---\n• All of Decima's attacks.\n• When Peal of Harmony and Discord are consumed.\n• Approximately when Dancing Sparks spawn.",
   "author": "\nQuitarHero.1645\n-中文汉化-\n godpit.7512 社恐",
@@ -19,7 +19,7 @@
         "type": "key", "keyBind": "0",
         "requireEntry": true
       },
-      //Alerts (+2 second offset. ~33.7s / 35s rotation)
+      //Alerts (+2 second offset. ~33.7s / 350s rotation)
       "alerts": [
         // ===== Initial Rotation =====
         { "alert": "第一阶段", 
@@ -27,76 +27,76 @@
           "icon": "Assets/Raids/W8B1/Mount Balrior.png"
         },
         //初期震荡与主要震荡
-        { "warning": "准备初期震荡与主要震荡", "fillColor": [158, 78, 73, 0],
+        { "warning": "准备：初期震荡，主要震荡", "fillColor": [158, 78, 73, 0],
           "warningDuration": 5, "timestamps": [5],
           "icon": "Assets/Raids/W8B1/Mainshock.png"
         },
-        { "warning": "初期震荡与主要震荡", "fillColor": [158, 78, 73, 0],
+        { "warning": "初期震荡，主要震荡", "fillColor": [158, 78, 73, 0],
           "warningDuration": 9, "timestamps": [14],
           "icon": "Assets/Raids/W8B1/Mainshock.png"
         },
         //Peals of Harmony & Discord | Chorus of Thunder
-        { "warning": "和谐鸣响与分歧鸣响", "alert": "雷霆合唱", "fillColor": [158, 119, 13, 0],
+        { "warning": "和谐鸣响，分歧鸣响", "alert": "雷霆合唱", "fillColor": [158, 119, 13, 0],
           "warningDuration": 8.75, "alertDuration": 5, "timestamps": [13.75],
           "icon": "Assets/Raids/W8B1/Peal of Harmony.png"
         },
         //Fluxlance (Normal, 1 person, 5.5s)
-        { "warning": "准备黄色箭头（波动长矛）", "fillColor": [209, 109, 2, 0],
+        { "warning": "准备:黄色箭头", "fillColor": [209, 109, 2, 0],
           "warningDuration": 9, "timestamps": [14],
           "icon": "Assets/Raids/W8B1/Fluxlance.png"
         },
-        { "warning": "黄色箭头（波动长矛）", "fillColor": [209, 109, 2, 0],
+        { "warning": "黄色箭头", "fillColor": [209, 109, 2, 0],
           "warningDuration": 5.5, "timestamps": [19.5],
           "icon": "Assets/Raids/W8B1/Fluxlance.png"
         },
         //Seismic Crash & Earthrend
-        { "warning": "准备震荡冲击与泥土束缚", "fillColor": [158, 78, 73, 0],
+        { "warning": "准备：震荡冲击，泥土束缚", "fillColor": [158, 78, 73, 0],
           "warningDuration": 8.5, "timestamps": [22.5],
           "icon": "Assets/Raids/W8B1/Seismic Crash.png"
         },
-        { "warning": "震荡冲击与泥土束缚", "fillColor": [158, 78, 73, 0],
+        { "warning": "震荡冲击，泥土束缚", "fillColor": [158, 78, 73, 0],
           "warningDuration": 8.25, "timestamps": [30.75],
           "icon": "Assets/Raids/W8B1/Seismic Crash.png"
         },
-        { "warning": "和谐鸣响与分歧鸣响", "alert": "雷霆合唱", "fillColor": [158, 119, 13, 0],
+        { "warning": "和谐鸣响，分歧鸣响", "alert": "雷霆合唱", "fillColor": [158, 119, 13, 0],
           "warningDuration": 8, "alertDuration": 5, "timestamps": [30.5],
           "icon": "Assets/Raids/W8B1/Peal of Harmony.png"
         },
         //Dancing Sparks (Green Circles)
-        { "warning": "准备绿圈", "alert": "绿圈出现", "fillColor": [33, 184, 17, 0],
+        { "warning": "准备：绿圈", "alert": "绿圈出现", "fillColor": [33, 184, 17, 0],
           "warningDuration": 8.25, "alertDuration": 4.75, "timestamps": [30.75],
           "icon": "Assets/Raids/W8B1/Dancing Spark.png"
         },
         //Fluxlance (Red, 1 person, 5.5s)
-        { "warning": "准备红色箭头（波动长矛）", "fillColor": [245, 7, 7, 0],
+        { "warning": "准备：红色箭头", "fillColor": [245, 7, 7, 0],
           "warningDuration": 8.25, "timestamps": [30.75],
           "icon": "Assets/Raids/W8B1/Fluxlance.png"
         },
-        { "warning": "红色箭头（波动长矛）", "fillColor": [245, 7, 7, 0],
+        { "warning": "红色箭头", "fillColor": [245, 7, 7, 0],
           "warningDuration": 5.5, "timestamps": [36.25],
           "icon": "Assets/Raids/W8B1/Fluxlance.png"
         },
         // ===== Looping Rotation =====
         //初期震荡与主要震荡
-        { "warning": "准备初期震荡与主要震荡", "fillColor": [158, 78, 73, 0],
+        { "warning": "准备：初期震荡，主要震荡", "fillColor": [158, 78, 73, 0],
           "warningDuration": 8, "timestamps": [38.75],
           "icon": "Assets/Raids/W8B1/Mainshock.png"
         },
-        { "warning": "准备初期震荡与主要震荡", "fillColor": [158, 78, 73, 0],
+        { "warning": "准备：初期震荡，主要震荡", "fillColor": [158, 78, 73, 0],
           "warningDuration": 7.75, "timestamps": [73.75, 108.75, 143.75, 178.75, 213.75, 248.75, 283.75],
           "icon": "Assets/Raids/W8B1/Mainshock.png"
         },
-        { "warning": "初期震荡与主要震荡", "fillColor": [158, 78, 73, 0],
+        { "warning": "初期震荡，主要震荡", "fillColor": [158, 78, 73, 0],
           "warningDuration": 9, "timestamps": [47.75, 82.75, 117.75, 152.75, 187.75, 222.75, 257.75],
           "icon": "Assets/Raids/W8B1/Mainshock.png"
         },
         //Peals of Harmony & Discord | Chorus of Thunder
-        { "warning": "和谐鸣响与分歧鸣响", "alert": "雷霆合唱", "fillColor": [158, 119, 13, 0],
+        { "warning": "和谐鸣响，分歧鸣响", "alert": "雷霆合唱", "fillColor": [158, 119, 13, 0],
           "warningDuration": 8.75, "alertDuration": 5, "timestamps": [47.5, 82.5, 117.5, 152.5, 187.5, 222.5, 257.5],
           "icon": "Assets/Raids/W8B1/Peal of Harmony.png"
         },
         //Fluxlance (Normal, 1 person, 5.5s)
-        { "warning": "准备黄色箭头", "fillColor": [209, 109, 2, 0],
+        { "warning": "准备：黄色箭头", "fillColor": [209, 109, 2, 0],
           "warningDuration": 9.75, "timestamps": [48.5, 83.5, 118.5, 153.5, 188.5, 223.5, 258.5],
           "icon": "Assets/Raids/W8B1/Fluxlance.png"
         },
@@ -105,25 +105,25 @@
           "icon": "Assets/Raids/W8B1/Fluxlance.png"
         },
         //Dancing Sparks (Green Circles)
-        { "warning": "准备绿圈", "alert": "绿圈出现", "fillColor": [33, 184, 17, 0],
+        { "warning": "准备：绿圈", "alert": "绿圈出现", "fillColor": [33, 184, 17, 0],
           "warningDuration": 8.5, "alertDuration": 5, "timestamps": [66, 101, 136, 171, 206, 241, 276],
           "icon": "Assets/Raids/W8B1/Dancing Spark.png"
         },
         //Seismic Crash & Earthrend
-        { "warning": "准备震荡冲击与泥土束缚", "fillColor": [158, 78, 73, 0],
+        { "warning": "准备：震荡冲击，泥土束缚", "fillColor": [158, 78, 73, 0],
           "warningDuration": 9, "timestamps": [57.5, 92.5, 127.5, 162.5, 197.5, 232.5, 267.5],
           "icon": "Assets/Raids/W8B1/Seismic Crash.png"
         },
-        { "warning": "震荡冲击与泥土束缚", "fillColor": [158, 78, 73, 0],
+        { "warning": "震荡冲击，泥土束缚", "fillColor": [158, 78, 73, 0],
           "warningDuration": 8.25, "timestamps": [65.75, 100.75, 135.75, 170.75, 205.75, 240.75, 275.75],
           "icon": "Assets/Raids/W8B1/Seismic Crash.png"
         },
         //Fluxdance (Red, 1 person, 5.5s)
-        { "warning": "准备红色箭头（波动长矛）", "fillColor": [245, 7, 7, 0],
+        { "warning": "准备：红色箭头", "fillColor": [245, 7, 7, 0],
           "warningDuration": 8.5, "timestamps": [66, 101, 136, 171, 206, 241, 276],
           "icon": "Assets/Raids/W8B1/Fluxlance.png"
         },
-        { "warning": "红色箭头（波动长矛）", "fillColor": [245, 7, 7, 0],
+        { "warning": "红色箭头", "fillColor": [245, 7, 7, 0],
           "warningDuration": 5.5, "timestamps": [71.5, 106.5, 141.5, 176.5, 211.5, 246.5, 281.5],
           "icon": "Assets/Raids/W8B1/Fluxlance.png"
         }
@@ -146,35 +146,35 @@
           "icon": "Assets/Raids/W8B1/Mount Balrior.png"
         },
         //Flux Nova & Fulminate (Conduit & Decima Explosions)
-        { "warning": "准备流体新星", "alert": "流体新星", "fillColor": [30, 153, 156, 0],
+        { "warning": "准备：流体新星", "alert": "流体新星", "fillColor": [30, 153, 156, 0],
           "warningDuration": 4.5, "alertDuration": 2, "timestamps": [4.5],
           "icon": "Assets/Raids/W8B1/Mount Balrior.png"
         },
-        { "warning": "准备闪电轰炸", "fillColor": [30, 153, 156, 0],
+        { "warning": "准备：闪电轰炸", "fillColor": [30, 153, 156, 0],
           "warningDuration": 6.5, "timestamps": [6.5],
           "icon": "Assets/Raids/W8B1/Mount Balrior.png"
         },
         //初期震荡与主要震荡
-        { "warning": "准备初期震荡与主要震荡", "fillColor": [158, 78, 73, 0],
+        { "warning": "准备：初期震荡，主要震荡", "fillColor": [158, 78, 73, 0],
           "warningDuration": 16, "timestamps": [22.5],
           "icon": "Assets/Raids/W8B1/Mainshock.png"
         },
-        { "warning": "初期震荡与主要震荡", "fillColor": [158, 78, 73, 0],
+        { "warning": "初期震荡，主要震荡", "fillColor": [158, 78, 73, 0],
           "warningDuration": 9, "timestamps": [31.5],
           "icon": "Assets/Raids/W8B1/Mainshock.png"
         },
         //Peals of Harmony & Discord | Chorus of Thunder
-        { "warning": "和谐鸣响与分歧鸣响", "alert": "雷霆合唱", "fillColor": [158, 119, 13, 0],
+        { "warning": "和谐鸣响，分歧鸣响", "alert": "雷霆合唱", "fillColor": [158, 119, 13, 0],
           "warningDuration": 8.75, "alertDuration": 5, "timestamps": [31.25],
           "icon": "Assets/Raids/W8B1/Peal of Harmony.png"
         },
         //Violent Winds
-        { "warning": "准备强风（稳固）", "alert": "强风", "fillColor": [209, 109, 2, 0],
+        { "warning": "准备：强风（稳固）", "alert": "强风", "fillColor": [209, 109, 2, 0],
           "warningDuration": 12, "alertDuration": 1.75, "timestamps": [34.5],
           "icon": "Assets/Raids/W8B1/Violent Winds.png"
         },
         //Fluxlance Fusillade (Normal, 5 people, 5.5s / 4.8s)
-        { "warning": "准备橙色箭头（顺序）", "fillColor": [209, 109, 2, 0],
+        { "warning": "准备：橙色箭头（顺序）", "fillColor": [209, 109, 2, 0],
           "warningDuration": 9.3, "timestamps": [31.8],
           "icon": "Assets/Raids/W8B1/Fluxlance.png"
         },
@@ -187,26 +187,26 @@
           "icon": "Assets/Strikes/B9/5.png"
         },
         //Seismic Crash & Earthrend
-        { "warning": "准备震荡冲击与泥土束缚", "fillColor": [158, 78, 73, 0],
+        { "warning": "准备：震荡冲击，泥土束缚", "fillColor": [158, 78, 73, 0],
           "warningDuration": 13.5, "timestamps": [45.3],
           "icon": "Assets/Raids/W8B1/Seismic Crash.png"
         },
-        { "warning": "震荡冲击与泥土束缚", "fillColor": [158, 78, 73, 0],
+        { "warning": "震荡冲击，泥土束缚", "fillColor": [158, 78, 73, 0],
           "warningDuration": 8.2, "timestamps": [53.5],
           "icon": "Assets/Raids/W8B1/Seismic Crash.png"
         },
         //Peals of Harmony & Discord | Chorus of Thunder
-        { "warning": "和谐鸣响与分歧鸣响", "alert": "雷霆合唱", "fillColor": [158, 119, 13, 0],
+        { "warning": "和谐鸣响，分歧鸣响", "alert": "雷霆合唱", "fillColor": [158, 119, 13, 0],
           "warningDuration": 8.6, "alertDuration": 5, "timestamps": [53.9],
           "icon": "Assets/Raids/W8B1/Peal of Harmony.png"
         },
         //Dancing Sparks (Green Circles)
-        { "warning": "准备绿圈", "alert": "绿圈出现", "fillColor": [33, 184, 17, 0],
+        { "warning": "准备：绿圈", "alert": "绿圈出现", "fillColor": [33, 184, 17, 0],
           "warningDuration": 8.45, "alertDuration": 5.15, "timestamps": [53.75],
           "icon": "Assets/Raids/W8B1/Dancing Spark.png"
         },
         //Fluxdance Fusillade (Red, 5(1) people, 5.5s)
-        { "warning": "准备双色箭头（顺序）", "fillColor": [245, 7, 7, 0],
+        { "warning": "准备：双色箭头（顺序）", "fillColor": [245, 7, 7, 0],
           "warningDuration": 8.6, "timestamps": [53.9],
           "icon": "Assets/Raids/W8B1/Fluxlance.png"
         },
@@ -220,26 +220,26 @@
         },
         // ===== Looping Rotation =====
         //初期震荡与主要震荡
-        { "warning": "准备初期震荡与主要震荡", "fillColor": [158, 78, 73, 0],
+        { "warning": "准备：初期震荡，主要震荡", "fillColor": [158, 78, 73, 0],
           "warningDuration": 12.3, "timestamps": [66.2, 110.2, 154.2, 198.2, 242.2, 286.2, 330.2, 374.2, 418.2, 462.2, 506.2],
           "icon": "Assets/Raids/W8B1/Mainshock.png"
         },
-        { "warning": "初期震荡与主要震荡", "fillColor": [158, 78, 73, 0],
+        { "warning": "初期震荡，主要震荡", "fillColor": [158, 78, 73, 0],
           "warningDuration": 9, "timestamps": [75.2, 119.2, 163.2, 207.2, 251.2, 295.2, 339.2, 383.2, 427.2, 471.2, 515.2],
           "icon": "Assets/Raids/W8B1/Mainshock.png"
         },
         //Peals of Harmony & Discord | Chorus of Thunder
-        { "warning": "和谐鸣响与分歧鸣响", "alert": "雷霆合唱", "fillColor": [158, 119, 13, 0],
+        { "warning": "和谐鸣响，分歧鸣响", "alert": "雷霆合唱", "fillColor": [158, 119, 13, 0],
           "warningDuration": 8.7, "alertDuration": 5, "timestamps": [74.9, 118.9, 162.9, 206.9, 250.9, 294.9, 338.9, 382.9, 426.9, 470.9, 514.9],
           "icon": "Assets/Raids/W8B1/Peal of Harmony.png"
         },
         //Violent Winds
-        { "warning": "准备强风（稳固）", "alert": "强风", "fillColor": [209, 109, 2, 0],
+        { "warning": "准备：强风（稳固）", "alert": "强风", "fillColor": [209, 109, 2, 0],
           "warningDuration": 12, "alertDuration": 1.7, "timestamps": [78.2, 122.2, 166.2, 210.2, 254.2, 298.2, 342.2, 386.2, 430.2, 474.2, 518.2],
           "icon": "Assets/Raids/W8B1/Violent Winds.png"
         },
         //Fluxlance Fusillade (Normal, 5 people, 5.5s / 4.8s)
-        { "warning": "准备橙色箭头（顺序）", "fillColor": [209, 109, 2, 0],
+        { "warning": "准备：橙色箭头（顺序）", "fillColor": [209, 109, 2, 0],
           "warningDuration": 9.7, "timestamps": [75.9, 119.9, 163.9, 207.9, 251.9, 295.9, 339.9, 383.9, 427.9, 471.9, 515.9],
           "icon": "Assets/Raids/W8B1/Fluxlance.png"
         },
@@ -252,26 +252,26 @@
           "icon": "Assets/Strikes/B9/5.png"
         },
         //Seismic Crash & Earthrend
-        { "warning": "准备震荡冲击与泥土束缚", "fillColor": [158, 78, 73, 0],
+        { "warning": "准备：震荡冲击，泥土束缚", "fillColor": [158, 78, 73, 0],
           "warningDuration": 13.5, "timestamps": [89.4, 133.4, 177.4, 221.4, 265.4, 309.4, 353.4, 397.4, 441.4, 485.4, 529.4],
           "icon": "Assets/Raids/W8B1/Seismic Crash.png"
         },
-        { "warning": "震荡冲击与泥土束缚", "fillColor": [158, 78, 73, 0],
+        { "warning": "震荡冲击，泥土束缚", "fillColor": [158, 78, 73, 0],
           "warningDuration": 8.1, "timestamps": [97.5, 141.5, 185.5, 229.5, 273.5, 317.5, 361.5, 405.5, 449.5, 493.5, 537.5],
           "icon": "Assets/Raids/W8B1/Seismic Crash.png"
         },
         //Peals of Harmony & Discord | Chorus of Thunder
-        { "warning": "和谐鸣响与分歧鸣响", "alert": "雷霆合唱", "fillColor": [158, 119, 13, 0],
+        { "warning": "和谐鸣响，分歧鸣响", "alert": "雷霆合唱", "fillColor": [158, 119, 13, 0],
           "warningDuration": 8.5, "alertDuration": 5, "timestamps": [97.9, 141.9, 185.9, 229.9, 273.9, 317.9, 361.9, 405.9, 449.9, 493.9, 537.9],
           "icon": "Assets/Raids/W8B1/Peal of Harmony.png"
         },
         //Dancing Sparks (Green Circles)
-        { "warning": "准备绿圈", "alert": "绿圈出现", "fillColor": [33, 184, 17, 0],
+        { "warning": "准备：绿圈", "alert": "绿圈出现", "fillColor": [33, 184, 17, 0],
           "warningDuration": 8.35, "alertDuration": 5.15, "timestamps": [97.75, 141.75, 185.75, 229.75, 273.75, 317.75, 361.75, 405.75, 449.75, 493.75, 537.75],
           "icon": "Assets/Raids/W8B1/Dancing Spark.png"
         },
         //Fluxdance Fusillade (Red, 5(1) people, 5.5s)
-        { "warning": "准备双色箭头（顺序）", "fillColor": [245, 7, 7, 0],
+        { "warning": "准备：双色箭头（顺序）", "fillColor": [245, 7, 7, 0],
           "warningDuration": 8.5, "timestamps": [97.9, 141.9, 185.9, 229.9, 273.9, 317.9, 361.9, 405.9, 449.9, 493.9, 537.9],
           "icon": "Assets/Raids/W8B1/Fluxlance.png"
         },
@@ -301,30 +301,30 @@
           "icon": "Assets/Raids/W8B1/Mount Balrior.png"
         },
         //Flux Nova & Fulminate (Conduit & Decima Explosions)
-        { "warning": "准备流体新星", "alert": "流体新星", "fillColor": [30, 153, 156, 0],
+        { "warning": "准备：流体新星", "alert": "流体新星", "fillColor": [30, 153, 156, 0],
           "warningDuration": 4.5, "alertDuration": 2.5, "timestamps": [4.5],
           "icon": "Assets/Raids/W8B1/Mount Balrior.png"
         },
-        { "warning": "准备闪电轰炸", "fillColor": [30, 153, 156, 0],
+        { "warning": "准备：闪电轰炸", "fillColor": [30, 153, 156, 0],
           "warningDuration": 7, "timestamps": [7],
           "icon": "Assets/Raids/W8B1/Mount Balrior.png"
         },
         //初期震荡与主要震荡
-        { "warning": "准备初期震荡与主要震荡", "fillColor": [158, 78, 73, 0],
+        { "warning": "准备：初期震荡，主要震荡", "fillColor": [158, 78, 73, 0],
           "warningDuration": 15.75, "timestamps": [22.75],
           "icon": "Assets/Raids/W8B1/Mainshock.png"
         },
-        { "warning": "初期震荡与主要震荡", "fillColor": [158, 78, 73, 0],
+        { "warning": "初期震荡，主要震荡", "fillColor": [158, 78, 73, 0],
           "warningDuration": 9, "timestamps": [31.75],
           "icon": "Assets/Raids/W8B1/Mainshock.png"
         },
         //Peals of Harmony & Discord | Chorus of Thunder
-        { "warning": "和谐鸣响与分歧鸣响", "alert": "雷霆合唱", "fillColor": [158, 119, 13, 0],
+        { "warning": "和谐鸣响，分歧鸣响", "alert": "雷霆合唱", "fillColor": [158, 119, 13, 0],
           "warningDuration": 8.9, "alertDuration": 5, "timestamps": [31.65],
           "icon": "Assets/Raids/W8B1/Peal of Harmony.png"
         },
         //Violent Winds
-        { "warning": "准备强风（稳固）", "alert": "强风", "fillColor": [209, 109, 2, 0],
+        { "warning": "准备：强风（稳固）", "alert": "强风", "fillColor": [209, 109, 2, 0],
           "warningDuration": 11.75, "alertDuration": 2.15, "timestamps": [34.5],
           "icon": "Assets/Raids/W8B1/Violent Winds.png"
         },
@@ -338,26 +338,26 @@
           "icon": "Assets/Raids/W8B1/Fluxlance.png"
         },
         //Seismic Crash & Earthrend
-        { "warning": "准备震荡冲击与泥土束缚", "fillColor": [158, 78, 73, 0],
+        { "warning": "准备：震荡冲击，泥土束缚", "fillColor": [158, 78, 73, 0],
           "warningDuration": 8.5, "timestamps": [40.6],
           "icon": "Assets/Raids/W8B1/Seismic Crash.png"
         },
-        { "warning": "震荡冲击与泥土束缚", "fillColor": [158, 78, 73, 0],
+        { "warning": "震荡冲击，泥土束缚", "fillColor": [158, 78, 73, 0],
           "warningDuration": 8.1, "timestamps": [48.7],
           "icon": "Assets/Raids/W8B1/Seismic Crash.png"
         },
         //Peals of Harmony & Discord | Chorus of Thunder
-        { "warning": "和谐鸣响与分歧鸣响", "alert": "雷霆合唱", "fillColor": [158, 119, 13, 0],
+        { "warning": "和谐鸣响，分歧鸣响", "alert": "雷霆合唱", "fillColor": [158, 119, 13, 0],
           "warningDuration": 8.4, "alertDuration": 5, "timestamps": [49],
           "icon": "Assets/Raids/W8B1/Peal of Harmony.png"
         },
         //Dancing Sparks (Green Circles)
-        { "warning": "准备绿圈", "alert": "绿圈出现", "fillColor": [33, 184, 17, 0],
+        { "warning": "准备：绿圈", "alert": "绿圈出现", "fillColor": [33, 184, 17, 0],
           "warningDuration": 8.1, "alertDuration": 5.3, "timestamps": [48.7],
           "icon": "Assets/Raids/W8B1/Dancing Spark.png"
         },
         //Fluxdance Salvo (Red, 5(1) people, 5.5s)
-        { "warning": "准备双色箭头（齐射）", "fillColor": [245, 7, 7, 0],
+        { "warning": "准备：双色箭头（齐射）", "fillColor": [245, 7, 7, 0],
           "warningDuration": 8.4, "timestamps": [49],
           "icon": "Assets/Raids/W8B1/Fluxlance.png"
         },
@@ -367,30 +367,30 @@
         },
         // ===== Looping Rotation =====
         //初期震荡与主要震荡
-        { "warning": "准备初期震荡与主要震荡", "fillColor": [158, 78, 73, 0],
+        { "warning": "准备：初期震荡，主要震荡", "fillColor": [158, 78, 73, 0],
           "warningDuration": 7.1, "timestamps": [56.1],
           "icon": "Assets/Raids/W8B1/Mainshock.png"
         },
-        { "warning": "准备初期震荡与主要震荡", "fillColor": [158, 78, 73, 0],
+        { "warning": "准备：初期震荡，主要震荡", "fillColor": [158, 78, 73, 0],
           "warningDuration": 7.2, "timestamps": [89.1, 122.1, 155.1, 188.1, 221.1, 254.1, 287.1, 320.1, 353.1, 386.1, 419.1],
           "icon": "Assets/Raids/W8B1/Mainshock.png"
         },
-        { "warning": "初期震荡与主要震荡", "fillColor": [158, 78, 73, 0],
+        { "warning": "初期震荡，主要震荡", "fillColor": [158, 78, 73, 0],
           "warningDuration": 9, "timestamps": [65.1, 98.1, 131.1, 164.1, 197.1, 230.1, 263.1, 296.1, 329.1, 362.1, 395.1],
           "icon": "Assets/Raids/W8B1/Mainshock.png"
         },
         //Peals of Harmony & Discord | Chorus of Thunder
-        { "warning": "和谐鸣响与分歧鸣响", "alert": "雷霆合唱", "fillColor": [158, 119, 13, 0],
+        { "warning": "和谐鸣响，分歧鸣响", "alert": "雷霆合唱", "fillColor": [158, 119, 13, 0],
           "warningDuration": 8.8, "alertDuration": 5, "timestamps": [64.9, 97.9, 130.9, 163.9, 196.9, 229.9, 262.9, 295.9, 328.9, 361.9, 394.9],
           "icon": "Assets/Raids/W8B1/Peal of Harmony.png"
         },
         //Violent Winds
-        { "warning": "准备强风（稳固）", "alert": "强风", "fillColor": [209, 109, 2, 0],
+        { "warning": "准备：强风（稳固）", "alert": "强风", "fillColor": [209, 109, 2, 0],
           "warningDuration": 12.5, "alertDuration": 1.3, "timestamps": [68.6, 101.6, 134.6, 167.6, 200.6, 233.6, 266.6, 299.6, 332.6, 365.6, 398.6],
           "icon": "Assets/Raids/W8B1/Violent Winds.png"
         },
         //箭头（齐射） (Green, 5/5 people, 6s)
-        { "warning": "准备绿色箭头", "fillColor": [33, 184, 17, 0],
+        { "warning": "准备：绿色箭头", "fillColor": [33, 184, 17, 0],
           "warningDuration": 9.4, "timestamps": [65.5, 98.5, 131.5, 164.5, 197.5, 230.5, 263.5, 296.5, 329.5, 362.5, 395.5],
           "icon": "Assets/Raids/W8B1/Fluxlance.png"
         },
@@ -399,26 +399,26 @@
           "icon": "Assets/Raids/W8B1/Fluxlance.png"
         },
         //Seismic Crash & Earthrend
-        { "warning": "准备震荡冲击与泥土束缚", "fillColor": [158, 78, 73, 0],
+        { "warning": "准备：震荡冲击，泥土束缚", "fillColor": [158, 78, 73, 0],
           "warningDuration": 8.1, "timestamps": [73.6, 106.6, 139.6, 172.6, 205.6, 238.6, 271.6, 304.6, 337.6, 370.6, 403.6],
           "icon": "Assets/Raids/W8B1/Seismic Crash.png"
         },
-        { "warning": "震荡冲击与泥土束缚", "fillColor": [158, 78, 73, 0],
+        { "warning": "震荡冲击，泥土束缚", "fillColor": [158, 78, 73, 0],
           "warningDuration": 8.1, "timestamps": [81.7, 114.7, 147.7, 180.7, 213.7, 246.7, 279.7, 312.7, 345.7, 378.7, 411.7],
           "icon": "Assets/Raids/W8B1/Seismic Crash.png"
         },
         //Peals of Harmony & Discord | Chorus of Thunder
-        { "warning": "和谐鸣响与分歧鸣响", "alert": "雷霆合唱", "fillColor": [158, 119, 13, 0],
+        { "warning": "和谐鸣响，分歧鸣响", "alert": "雷霆合唱", "fillColor": [158, 119, 13, 0],
           "warningDuration": 8.3, "alertDuration": 5, "timestamps": [81.9, 114.9, 147.9, 180.9, 213.9, 246.9, 279.9, 312.9, 345.9, 378.9, 411.9],
           "icon": "Assets/Raids/W8B1/Peal of Harmony.png"
         },
         //Dancing Sparks (Green Circles)
-        { "warning": "准备绿圈", "alert": "绿圈出现", "fillColor": [33, 184, 17, 0],
+        { "warning": "准备：绿圈", "alert": "绿圈出现", "fillColor": [33, 184, 17, 0],
           "warningDuration": 8.1, "alertDuration": 5.2, "timestamps": [81.7, 114.7, 147.7, 180.7, 213.7, 246.7, 279.7, 312.7, 345.7, 378.7, 411.7],
           "icon": "Assets/Raids/W8B1/Dancing Spark.png"
         },
         //Fluxdance Salvo (Red, 5(1) people, 6s)
-        { "warning": "准备双色箭头（齐射）", "fillColor": [245, 7, 7, 0],
+        { "warning": "准备：双色箭头（齐射）", "fillColor": [245, 7, 7, 0],
           "warningDuration": 8.3, "timestamps": [81.9, 114.9, 147.9, 180.9, 213.9, 246.9, 279.9, 312.9, 345.9, 378.9, 411.9],
           "icon": "Assets/Raids/W8B1/Fluxlance.png"
         },
